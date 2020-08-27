@@ -1,0 +1,12 @@
+.nav__logoContainer {
+  object-position: center;
+  object-fit: contain;
+  width: 200px;
+  height: 70px;
+  overflow: hidden;
+}
+.nav__logo {
+  object-position: center;
+  width: 200px;
+  object-fit: contain;
+}
