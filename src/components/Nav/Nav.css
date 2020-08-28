@@ -1,4 +1,12 @@
 .nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  transition: all 0.2s ease-in;
+}
+.nav__color {
+  background-color: #111;
 }
 .nav__logoContainer {
   object-position: center;
@@ -9,6 +17,10 @@
 }
 .nav__logo {
   object-position: center;
-  width: 200px;
+  width: 150px;
   object-fit: contain;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  margin-bottom: 20px;
 }
