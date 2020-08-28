@@ -33,10 +33,9 @@ function Row({ title, fetchUrl, isLargeRow }) {
   }, [fetchUrl]);
 
   const opts = {
-    height: "390",
-    width: "100%",
+    width: "90%",
     playerVars: {
-      autoplay: 1,
+      autoPlay: 1,
     },
   };
 

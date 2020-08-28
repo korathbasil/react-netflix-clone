@@ -17,13 +17,12 @@ function Nav() {
     };
   }, []);
   return (
-    <div className={`nav ${showColorStatus ? "nav__color" : "null"}`}>
-      <div className="nav__logoContainer">
-        <img
-          src="https://image.tmdb.org/t/p/w500/wwemzKWzjKYJFfCeiB57q3r4Bcm.png"
-          className="nav__logo"
-        />
-      </div>
+    <div className={`nav ${showColorStatus && "nav__color"}`}>
+      <img
+        className="nav__logo"
+        src="https://image.tmdb.org/t/p/w500/wwemzKWzjKYJFfCeiB57q3r4Bcm.png"
+        alt="Netflix"
+      />
     </div>
   );
 }

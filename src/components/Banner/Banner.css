@@ -48,3 +48,12 @@
     #111
   );
 }
+
+@media (max-width: 500px) {
+  .banner__contents {
+    margin-left: 10px;
+  }
+  .banner__desc {
+    width: 90vw;
+  }
+}

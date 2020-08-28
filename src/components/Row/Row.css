@@ -28,3 +28,9 @@
 .row__posterLarge:hover {
   transform: scale(1.09);
 }
+
+@media (max-width: 500px) {
+  .row__posters {
+    padding-left: 0;
+  }
+}
